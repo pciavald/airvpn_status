@@ -9,7 +9,7 @@ class Py3status:
         pass
     def on_click(self, i3s_output_list, i3s_config, event):
         pass
-    def format_arivpn(self, i3s_output_list, i3s_config):
+    def format_airvpn(self, i3s_output_list, i3s_config):
         response = {
                 'cached_until': time() + self.cache_timeout,
                 'full_text': airvpn()
