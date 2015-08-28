@@ -1,5 +1,5 @@
 from time import time
-from airvpn import airvpn
+from airvpn_status import airvpn
 
 class Py3status:
     cache_timeout = 60

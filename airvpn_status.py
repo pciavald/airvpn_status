@@ -11,7 +11,7 @@ def request(service, apikey):
 
 def airvpn():
 
-    apikey = str(open("api.key", "r").read()).strip()
+    apikey = str(open("airvpn_api.key", "r").read()).strip()
     info = request("userinfo", apikey)
 
     # display public ip if not connected
