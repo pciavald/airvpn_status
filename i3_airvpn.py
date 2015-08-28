@@ -2,7 +2,7 @@ from time import time
 from airvpn import airvpn
 
 class Py3status:
-    cache_timeout = 10
+    cache_timeout = 60
     def __init__(self):
         pass
     def kill(self, i3s_output_list, i3s_config):
@@ -26,4 +26,4 @@ if __name__ == "__main__":
             }
     while True:
         print(x.format_airvpn([], config))
-        sleep(1)
+        sleep(60)
