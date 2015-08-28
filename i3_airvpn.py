@@ -12,7 +12,7 @@ class Py3status:
     def format_arivpn(self, i3s_output_list, i3s_config):
         response = {
                 'cached_until': time() + self.cache_timeout,
-                'full_text': airvpn("a1fbb4df01cbc3888219ad354358318c0d1a677d")
+                'full_text': airvpn()
                 }
         return response
 
