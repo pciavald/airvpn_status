@@ -1,8 +1,12 @@
+"""
+Display the current state of your airvpn connection
+"""
+
 from time import time
 from airvpn_status import airvpn
 
 class Py3status:
-    cache_timeout = 10
+    cache_timeout = 30
     def __init__(self):
         pass
     def kill(self, i3s_output_list, i3s_config):
@@ -26,4 +30,4 @@ if __name__ == "__main__":
             }
     while True:
         print(x.format_airvpn([], config))
-        sleep(1)
+        sleep(30)
